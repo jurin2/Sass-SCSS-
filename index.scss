@@ -1,0 +1,45 @@
+$검정색:#000000;
+$하얀색:#ffffff;
+$fnSize:100px;
+$titCenter:center;
+$맞춤:0 auto;
+
+//함수
+@mixin 함수(){
+    font-size: $fnSize;
+    background-color: $하얀색;
+    color: $검정색;
+}
+
+body{
+    background-color:$검정색;
+    color:$하얀색;
+}
+h1{
+    font-size:$fnSize - 50px;
+}
+body{
+    >p{
+        text-align: $titCenter;
+        width: 500px;
+        margin: $맞춤;
+    }
+}
+.navbar{
+    >p{
+        color: red;
+    }
+}
+.navbar{
+    >p{
+        &:hover{
+            color: $하얀색;
+        }
+    }
+}
+h2{
+    @extend h1;
+}
+h3{
+    @include 함수();
+}

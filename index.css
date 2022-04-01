@@ -1,0 +1,28 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1, h2 {
+  font-size: 50px;
+}
+
+body > p {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.navbar > p {
+  color: red;
+}
+
+.navbar > p:hover {
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 100px;
+  background-color: #ffffff;
+  color: #000000;
+}/*# sourceMappingURL=index.css.map */

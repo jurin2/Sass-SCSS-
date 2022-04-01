@@ -1,0 +1,18 @@
+@mixin 큰제목(){
+    font-weight: 900;
+    font-size: 24px;
+    color: darkviolet;
+    text-align: center;
+}
+@mixin 중간제목() {
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 28px;
+    color: #333;
+}
+@mixin 본문($색상) {
+    color: $색상;
+}
+
+$작은제목크기:20px;
+$밑줄:underline;
